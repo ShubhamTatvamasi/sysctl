@@ -16,7 +16,7 @@ List all the parameters from `/etc/sysctl.conf` file:
 sudo sysctl -p
 ```
 
-Live parameters can be chnaged by updating these files:
+Live parameters can be changed by updating these files:
 ```bash
 ls /proc/sys
 ```
