@@ -9,7 +9,11 @@ Update kernel parameters:
 ```bash
 sudo vim /etc/sysctl.conf
 ```
-> `reboot` your system after changes.
+
+Apply changes to system:
+```bash
+sudo sysctl --system
+```
 
 List all the parameters from `/etc/sysctl.conf` file:
 ```bash
