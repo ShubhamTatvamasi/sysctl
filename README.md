@@ -10,7 +10,7 @@ Update kernel parameters:
 sudo vim /etc/sysctl.conf
 ```
 
-Add the this to the `sysctl.conf` file for Proxmox VM:
+Add this to the `sysctl.conf` file for Proxmox VM:
 ```
 fs.inotify.max_user_instances=512
 ```
