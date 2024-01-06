@@ -20,6 +20,11 @@ Apply changes to system:
 sudo sysctl --system
 ```
 
+Verify value:
+```bash
+sudo sysctl fs.inotify.max_user_instances
+```
+
 List all the parameters from `/etc/sysctl.conf` file:
 ```bash
 sudo sysctl -p
