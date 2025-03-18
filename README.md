@@ -25,7 +25,7 @@ Verify value:
 sudo sysctl fs.inotify.max_user_instances
 ```
 
-List all the parameters from `/etc/sysctl.conf` file:
+Apply changes from `/etc/sysctl.conf` file:
 ```bash
 sudo sysctl -p
 ```
